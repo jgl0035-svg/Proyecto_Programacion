@@ -112,7 +112,7 @@ public class Formulario extends JFrame {
 			}
 		});
 		btn_Insertar.setBounds(174, 205, 84, 20);
-		contentPane.add(btn_Insertar);//Hola
+		contentPane.add(btn_Insertar);
 
 	}
 }
