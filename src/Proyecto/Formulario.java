@@ -97,6 +97,7 @@ public class Formulario extends JFrame {
 					conexion.ejecutarInsertDeleteUpdate(sentencia);//Manda la orden a la base de datos
 					conexion.desconectar();//Desconecta de la base de datos
 					
+					
 					//Llamo a un aviso
 					String mensaje = "Usuario introducido correctamente";
 					JOptionPane.showMessageDialog(null, mensaje);
